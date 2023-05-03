@@ -14,8 +14,38 @@
      <!-- el atributo SRC indica el origen de la imagen, y utiliza, como origen, la ruta desde donde esta el archivo html -->
      <!-- el atributo alt es obligatorio y sirve para que los buscadores indexen las imagenes y los lectores de pantalla puedan dar informacion sobre el contenido de las mismas -->
      <!-- hay otras formas de poner una imagen: utilizando una url como muestran a continuacion-->
-     <img src=" https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080_1280.jpg" alt=" atardecer"
-    
+     <img src=" https://cdn.pixabay.com/photo/2018/04/16/16/16/sunset-3325080_1280.jpg" alt=" atardecer">
      
+    <!-- -->
+    <!--listas-->
+    <h3>Cosas para llevar a parque norte</h3>
+     <ul> <!--La etiqueta <ul> define el inicio de una lista NO ordenada-->
+        <li> pelota de futbol</li>
+        <li> pelota de basket</li>
+        <li> cartas de truco</li>
+
+     </ul>
+
+    <ol> <!-- La etiqueta <ol> define el inicio de una lista ordenada-->
+<li>Argentina</li>
+<li>Francia</li>
+<il>Crocia</il>
+<il>Marruecos</il>
+    </ol>
+    <!--vinculos-->
+    <p>los vinculos o links son accesos a otras paginas o recursos en la wed. <br>
+    tienen un atributo propio que se llama hret, que define la ubicacion a donde se dirije el vinculo<br>
+    la etiqueta <code> &#60;a&#62; </code> tiene apertura y cierre, el contenido es lo que se ve en la pagina</p>
+    <a href="http://www.dominio/ruta " >Lo que se ve</a> <!--los vinculos o links se definen usando la etiqueta <a> -->
+        <p>el atributo hret puede adoptar tres formas distintas</p>
+        <ul>
+            <li><b>Vinculos relativos</b>: como las imagenes, tienen una ruta usando como referencia el lugar donde se encuentra el documento html</li>
+            <li><b>Vinculo Absoluto</b>: esto tambien es lo mismo que los imagenes, podemos usar una url completa. Siempre teniendo en cuenta no usar un link de busqueda sido la url concreta del recurso a vincular</li>
+            <li><b>Vinculo ancla</b>: los vinculos ancla se usan para referenciar a las distintas partes del mismo documento, para utilizar se debe usar el atributo global id que debe ser unico en el documento</li>
+        </ul>
+        <p>por otro lado los vinculos tiene otro atributo llamado target</p>
+        <a href="http://" target="_blank" rel="noopener noreferrer">usando el atributo target</a>
+        <p> el atributo target junto con el definen como se va comportar el vinculo, en este caso usando el valor _blank nos abre una nueva pestaña y sin referencias a la pagina actual</p>
+
 </body>
 </html>
